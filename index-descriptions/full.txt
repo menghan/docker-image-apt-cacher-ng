@@ -1,0 +1,12 @@
+This is a simple [Apt-Cacher-NG][1] service, for use as a Debian/Ubuntu
+package caching proxy.  It is intended to be used in a trusted environment,
+such as within a LAN behind a firewall, as it does not use any access control
+or save any logs.
+
+This image is built on [extellisys/debian-wheezy][2], and all additional
+layers have been squashed into a single image.  Installation, usage, and
+build documentation is available on the [GitHub project page][3].
+
+  [1]: http://www.unix-ag.uni-kl.de/~bloch/acng/
+  [2]: https://index.docker.io/u/extellisys/debian-wheezy/
+  [3]: https://github.com/extellisys/docker-image-apt-cacher-ng
