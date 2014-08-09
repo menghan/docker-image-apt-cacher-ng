@@ -8,7 +8,7 @@
 #           -v /tmp/apt-cacher-ng:/var/cache/apt-cacher-ng \
 #           apt-cacher-ng
 
-FROM debian-wheezy:latest
+FROM debian:wheezy
 MAINTAINER: Menghan Zheng <menghan412@gmail.com>
 
 RUN apt-get install -y apt-cacher-ng
