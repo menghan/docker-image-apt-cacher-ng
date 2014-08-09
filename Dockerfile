@@ -8,8 +8,8 @@
 #           -v /tmp/apt-cacher-ng:/var/cache/apt-cacher-ng \
 #           apt-cacher-ng
 
-FROM extellisys/debian-wheezy:latest
-MAINTAINER: Travis Cardwell <travis.cardwell@extellisys.com>
+FROM debian-wheezy:latest
+MAINTAINER: Menghan Zheng <menghan412@gmail.com>
 
 RUN apt-get install -y apt-cacher-ng
 
