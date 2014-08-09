@@ -9,8 +9,9 @@
 #           apt-cacher-ng
 
 FROM debian:wheezy
-MAINTAINER: Menghan Zheng <menghan412@gmail.com>
+MAINTAINER Menghan Zheng <menghan412@gmail.com>
 
+RUN apt-get update
 RUN apt-get install -y apt-cacher-ng
 
 EXPOSE 3142
